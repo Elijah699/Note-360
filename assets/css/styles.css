@@ -1,0 +1,73 @@
+body {
+  background-color: #e5e5e5;
+}
+
+
+.note__name {
+  font-family: "Gruppo", cursive;
+}
+
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+.vector {
+  font-family: "wide font";
+  font-size: 20px;
+}
+
+
+.action__button {
+  float: right;
+}
+
+
+.ab__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.ab__link:hover {
+    color: #fff;
+    background-color: #6610f2;
+}
+
+
+.login {
+  background: #507ef5;
+  border: none;
+  padding: 6px 8px 6px 20px;
+  border-radius: 20px 0px 0px 20px;
+  margin: -5px;
+}
+
+
+.signup {
+  background: #356dfb;
+  border: none;
+  padding: 6px 20px 6px 8px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.ellipse {
+  height: 220px;
+  width: 237px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+
+.font__14 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
