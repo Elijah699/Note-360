@@ -1,5 +1,5 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 
@@ -70,4 +70,100 @@ ul {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
+}
+
+
+.signup-wrapper {
+  background: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  /* display: none; */
+}
+
+.signup-form {
+  position: relative;
+  width: 100%;
+  max-width: 365px;
+  height: 630px;
+  margin: 31px auto;
+  padding: 37px 24px;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 17px;
+  cursor: pointer;
+}
+
+form p {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+h5 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+  width: 105px;
+}
+
+.google-btn {
+  width: 314px;
+  height: 46px;
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.05);
+  border: 1.5px solid #356dfb;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+#google {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+line {
+  font-family: 'Roboto';
+}
+
+.line1 {
+  margin-right: 13px;
+}
+
+.line2 {
+  margin-left: 13px;
+}
+
+input {
+  margin-bottom: 15px;
+  width: 314px;
+  height: 46px;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.form-control {
+  border: 1px solid #dedfec;
+  border-radius: 10px;
+}
+
+.signup-btn {
+  background: #356dfb;
+  width: 314px;
+  height: 48px;
+  font-family: 'Roboto';
+  border-radius: 30px;
+}
+
+.signup-btn:hover {
+  color: #fff;
+  background-color: #6610f2;
 }
