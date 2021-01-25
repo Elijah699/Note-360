@@ -123,7 +123,7 @@ ul {
   position: relative;
   width: 100%;
   max-width: 365px;
-  height: 630px;
+  height: 650px;
   margin: 31px auto;
   padding: 37px 24px;
   border-radius: 10px;
@@ -139,13 +139,14 @@ ul {
 form p {
   font-family: 'Roboto';
   font-size: 14px;
+  font-weight: 400;
   margin-top: 12px;
 }
 
 h5 {
   font-family: 'Roboto';
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
   margin-top: 15px;
   width: 105px;
 }
@@ -157,6 +158,7 @@ h5 {
   background: rgba(196, 196, 196, 0.05);
   border: 1.5px solid #356dfb;
   font-family: 'Roboto';
+  font-weight: 400;
   font-size: 16px;
 }
 
@@ -184,6 +186,7 @@ input {
   height: 46px;
   font-size: 14px;
   font-family: 'Roboto';
+  font-weight: 400;
 }
 
 .form-control {
@@ -196,6 +199,7 @@ input {
   width: 314px;
   height: 48px;
   font-family: 'Roboto';
+  font-weight: 400;
   border-radius: 30px;
 }
 
