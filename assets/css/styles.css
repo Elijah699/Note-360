@@ -69,11 +69,12 @@ ul {
 
 @media only screen and (max-width: 786px) {
   body {
-    background-image: url(../images/mobile\ background.jpeg);
-    height: auto;
+    background-image: url(../images/mobile\ background.jpg);
+    height: 100vh;
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #fff;
   }
 
@@ -106,6 +107,10 @@ ul {
   .white {
     color: #fff;
   }
+
+  .signup-form {
+    margin: 200px auto;
+  }
 }
 
 
@@ -123,7 +128,7 @@ ul {
   position: relative;
   width: 100%;
   max-width: 365px;
-  height: 650px;
+  height: 630px;
   margin: 31px auto;
   padding: 37px 24px;
   border-radius: 10px;
@@ -131,9 +136,16 @@ ul {
 
 .close {
   position: absolute;
-  top: 15px;
+  top: 12px;
   right: 17px;
   cursor: pointer;
+  color: #000;
+}
+
+form h2 {
+  font-size: 36px;
+  color: #000;
+  font-family: 'Gruppo', cursive;
 }
 
 form p {
@@ -141,6 +153,7 @@ form p {
   font-size: 14px;
   font-weight: 400;
   margin-top: 12px;
+  color: #000;
 }
 
 h5 {
@@ -148,7 +161,7 @@ h5 {
   font-size: 20px;
   font-weight: 500;
   margin-top: 15px;
-  width: 105px;
+  width: 117px;
 }
 
 .google-btn {
@@ -160,6 +173,10 @@ h5 {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
+}
+
+form span {
+  color: #000;
 }
 
 #google {
@@ -183,7 +200,7 @@ line {
 input {
   margin-bottom: 15px;
   width: 314px;
-  height: 46px;
+  height: 42px;
   font-size: 14px;
   font-family: 'Roboto';
   font-weight: 400;
