@@ -7,9 +7,10 @@
       <title>Note 360°</title>
       <meta name="description" content="" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <!-- FAVICON -->
+      <link rel="icon" href="/assets/images/favicon.ico" />
 
       <!-- BOOTSTRAP CSS only -->
-
       <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
         rel="stylesheet"
@@ -20,7 +21,7 @@
       <!-- GOOGLE FONTS -->
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link
-        href="https://fonts.googleapis.com/css2?family=Gruppo&family=Open+Sans:wght@400;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Gruppo&family=Open+Sans:wght@600&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet"
       />
 
@@ -29,12 +30,22 @@
     </head>
     <body>
       <div>
+        <nav class="navbar navbar-light">
+          <div class="container-fluid">
+            <span class="mb-0 h1 px-lg-3 note__name">Note 360°</span>
+            <div class="row float-end px-lg-3">
+              <div class="action__button">
+                <a href="#" class="ab__link login">Login</a>
+                <a href="#" class="ab__link signup">Signup</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
         <div class="container-fluid">
           <div class="row">
-            <div class="col-4">
+            <div class="col-lg-5 col-md-6">
               <div class="py-4 px-4">
-                <h2 class="note__name">Note 360°</h2>
-
                 <div class="py-4">
                   <h1>
                     You can’t really manage time, but you can take small steps
@@ -43,18 +54,18 @@
                 </div>
 
                 <div>
-                  <p>
+                  <a href="#" class="black text-decoration-none white d-block">
                     <span class="vector"> &#187; </span> Track your daily
                     activities
-                  </p>
-                  <p>
+                  </a>
+                  <a href="#" class="black text-decoration-none white d-block">
                     <span class="vector"> &#187; </span> Save important notes or
                     code snippets you’re likely to reuse
-                  </p>
-                  <p>
+                  </a>
+                  <a href="#" class="black text-decoration-none white d-block">
                     <span class="vector"> &#187; </span> keep a diary of your
                     daily activities
-                  </p>
+                  </a>
                 </div>
 
                 <button class="btn-primary rounded-pill px-3 py-1 my-5">
@@ -63,50 +74,54 @@
               </div>
             </div>
 
-            <div class="col-8">
+            <div class="col-lg-7 col-md-6 images">
               <div class="py-4 px-4">
-                <div class="action__button">
-                  <a href="#" class="ab__link login">Login</a>
-                  <a href="#" class="ab__link signup">Signup</a>
-                </div>
-
-                <div class="mt-2">
+                <div>
                   <div class="row">
-                    <div class="col">
+                    <div class="col col-md-12">
                       <div class="ellipse mx-auto my-5">
                         <img
                           src="/assets/images/homepage 1.jpg"
                           alt="homepage_1"
                         />
-                        <p class="p-2 font__14 text-center">
+                        <a
+                          href="#"
+                          class="p-2 font__14 d-block text-center text-decoration-none"
+                        >
                           track your TODOS status
-                        </p>
+                        </a>
                       </div>
                     </div>
                   </div>
 
                   <div class="row">
-                    <div class="col-6">
-                      <div class="ellipse my-4">
+                    <div class="col-lg-6 col-md-12">
+                      <div class="ellipse mx-md-auto my-4">
                         <img
                           src="/assets/images/homepage 2.jpg"
                           alt="homepage_2"
                         />
-                        <p class="p-2 font__14 text-center">
+                        <a
+                          href="#"
+                          class="p-2 font__14 d-block text-center text-decoration-none"
+                        >
                           Jot down reusable code snippets
-                        </p>
+                        </a>
                       </div>
                     </div>
 
-                    <div class="col-6">
-                      <div class="ellipse my-4">
+                    <div class="col-lg-6 col-md-12">
+                      <div class="ellipse mx-md-auto my-4">
                         <img
                           src="/assets/images/homepage 3.jpg"
                           alt="homepage_3"
                         />
-                        <p class="p-2 font__14 text-center">
+                        <a
+                          href="#"
+                          class="p-2 font__14 d-block text-center text-decoration-none"
+                        >
                           Jot down your daily activities
-                        </p>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -124,7 +139,10 @@
                 >devCreed</a
               >
               &#38; @
-              <a href="https://github.com/J0shcodes" target="_blank" class="text-decoration-none"
+              <a
+                href="https://github.com/J0shcodes"
+                target="_blank"
+                class="text-decoration-none"
                 >j0shCodes</a
               >
             </small>
@@ -137,26 +155,60 @@
         <form action="" class="bg-white signup-form">
           <div class="close">&#x2715;</div>
 
-          <h2 class="note__name text-center">Note 360°</h2> 
+          <h2 class="note__name text-center">Note 360°</h2>
 
           <h5 class="text-primary">Create your account</h5>
 
           <p>Enter your personal details to start your journey today</p>
 
-          <button type="button" class="text-primary my-1 google-btn"><img src="assets/images/Google_Logo.png" alt="Goggle G logo" id="google">Signup with Google</button>
-          
+          <button type="button" class="text-primary my-1 google-btn">
+            <img
+              src="assets/images/Google_Logo.png"
+              alt="Goggle G logo"
+              id="google"
+            />Signup with Google
+          </button>
+
           <div class="line text-center my-2">
-          <img class="line1" src="assets/images/Line_20.png">OR<img class="line2" src="assets/images/Line_20.png">
-          </div> 
+            <img class="line1" src="assets/images/Line_20.png" />OR<img
+              class="line2"
+              src="assets/images/Line_20.png"
+            />
+          </div>
 
-          <input type="text" name="name" class="form-control" placeholder="Name">
-          <input type="text" name="username" class="form-control" placeholder="Username">
-          <input type="email" name="email" class="form-control" placeholder="E-mail">
-          <input type="password" name="password" class="form-control" placeholder="Password">
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            placeholder="Name"
+          />
+          <input
+            type="text"
+            name="username"
+            class="form-control"
+            placeholder="Username"
+          />
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="E-mail"
+          />
+          <input
+            type="password"
+            name="password"
+            class="form-control"
+            placeholder="Password"
+          />
 
-          <button type="button" class="btn btn-primary signup-btn">Sign Up</button>
+          <button type="button" class="btn btn-primary signup-btn">
+            Sign Up
+          </button>
 
-          <p class="my-4">Already have an account? <a href="" style="text-decoration: none;">Sign in here</a></p>
+          <p class="my-4 text-center">
+            Already have an account?
+            <a href="" style="text-decoration: none">Sign in here</a>
+          </p>
         </form>
       </div>
 

@@ -2,44 +2,35 @@ body {
   background-color: #e5e5e5;
 }
 
-
 .note__name {
   font-family: "Gruppo", cursive;
+  font-size: 40px;
 }
-
 
 h1 {
   font-family: "Open Sans", sans-serif;
+  line-height: 65.37px;
+  font-size: 48px;
 }
-
 
 ul {
   list-style-type: none;
 }
-
 
 .vector {
   font-family: "wide font";
   font-size: 20px;
 }
 
-
-.action__button {
-  float: right;
-}
-
-
 .ab__link {
   text-decoration: none;
   color: #fff;
 }
 
-
 .ab__link:hover {
-    color: #fff;
-    background-color: #6610f2;
+  color: #fff;
+  background-color: #6610f2;
 }
-
 
 .login {
   background: #507ef5;
@@ -48,7 +39,6 @@ ul {
   border-radius: 20px 0px 0px 20px;
   margin: -5px;
 }
-
 
 .signup {
   background: #356dfb;
@@ -65,11 +55,57 @@ ul {
   border-radius: 5px;
 }
 
-
 .font__14 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.black {
+  color: #000;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 786px) {
+  body {
+    background-image: url(../images/mobile\ background.jpeg);
+    height: auto;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+  }
+
+  .note__name {
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .action__button {
+    float: right;
+  }
+
+  .images {
+    display: none;
+  }
+
+  .login,
+  .signup {
+    background-color: inherit;
+    border-radius: 0;
+    color: #e5e5e5;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .white {
+    color: #fff;
+  }
 }
 
 
@@ -87,7 +123,7 @@ ul {
   position: relative;
   width: 100%;
   max-width: 365px;
-  height: 630px;
+  height: 650px;
   margin: 31px auto;
   padding: 37px 24px;
   border-radius: 10px;
@@ -103,13 +139,14 @@ ul {
 form p {
   font-family: 'Roboto';
   font-size: 14px;
+  font-weight: 400;
   margin-top: 12px;
 }
 
 h5 {
   font-family: 'Roboto';
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
   margin-top: 15px;
   width: 105px;
 }
@@ -121,6 +158,7 @@ h5 {
   background: rgba(196, 196, 196, 0.05);
   border: 1.5px solid #356dfb;
   font-family: 'Roboto';
+  font-weight: 400;
   font-size: 16px;
 }
 
@@ -148,6 +186,7 @@ input {
   height: 46px;
   font-size: 14px;
   font-family: 'Roboto';
+  font-weight: 400;
 }
 
 .form-control {
@@ -160,6 +199,7 @@ input {
   width: 314px;
   height: 48px;
   font-family: 'Roboto';
+  font-weight: 400;
   border-radius: 30px;
 }
 
