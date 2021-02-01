@@ -150,30 +150,36 @@
         </div>
       </div>
 
-      <!-- Sign-up Section -->
+      <!-- SIGN-UP SECTION -->
       <div class="signup-wrapper">
         <form action="" class="bg-white signup-form">
-          <div class="close">&#x2715;</div>
+          <div class="close black">&#x2715;</div>
 
-          <h2 class="text-center">Note 360°</h2>
+          <h2 class="text-center black">Note 360°</h2>
 
-          <h5 class="text-primary">Create your account</h5>
+          <h5 class="text-primary roboto__500">
+            Create
+            <pre class="roboto__500">your account</pre>
+          </h5>
 
           <p>Enter your personal details to start your journey today</p>
 
-          <button type="button" class="text-primary my-1 google-btn">
-            <img
-              src="assets/images/Google_Logo.png"
-              alt="Goggle G logo"
-              id="google"
-            />Signup with Google
-          </button>
+          <div class="d-grid gap-2">
+            <button
+              type="button"
+              class="text-primary p-2 my-1 roboto__400 google-btn"
+            >
+              <img
+                src="assets/images/Google_Logo.png"
+                alt="Goggle G logo"
+                class="me-3"
+              />Signup with Google
+            </button>
+          </div>
 
           <div class="line text-center my-2">
-            <img class="line1" src="assets/images/Line_20.png" /><span>OR</span><img
-              class="line2"
-              src="assets/images/Line_20.png"
-            />
+            <img class="me-3" src="assets/images/Line_20.png" /><span> OR </span
+            ><img class="ms-3" src="assets/images/Line_20.png" />
           </div>
 
           <input
@@ -201,13 +207,74 @@
             placeholder="Password"
           />
 
-          <button type="button" class="btn btn-primary signup-btn">
-            Sign Up
-          </button>
+          <div class="d-grid gap-2">
+            <button type="button" class="btn btn-primary signup-btn p-2">
+              Sign Up
+            </button>
+          </div>
 
           <p class="my-4 text-center">
             Already have an account?
-            <a href="" style="text-decoration: none">Sign in here</a>
+            <a href="#" class="text-decoration-none">Sign in here</a>
+          </p>
+        </form>
+      </div>
+
+      <!-- LOG-IN SECTION -->
+      <div class="login-wrapper d-none">
+        <form action="" class="bg-white login-form">
+          <div class="close black">&#x2715;</div>
+
+          <h2 class="text-center black">Note 360°</h2>
+
+          <h5 class="text-primary roboto__500">
+            Hello
+            <pre class="roboto__500">welcome back</pre>
+          </h5>
+
+          <p class="roboto__400">Enter your personal details to login in</p>
+
+          <div class="d-grid gap-2">
+            <button
+              type="button"
+              class="text-primary p-2 my-1 roboto__400 google-btn"
+            >
+              <img
+                src="assets/images/Google_Logo.png"
+                alt="Goggle G logo"
+                class="me-3"
+              />Sign in with Google
+            </button>
+          </div>
+          
+          <div class="line text-center roboto__400 my-2">
+            <img class="me-3" src="assets/images/Line_20.png" /><span> OR </span
+            ><img class="ms-3" src="assets/images/Line_20.png" />
+          </div>
+
+          <input
+            type="email"
+            name="email"
+            class="form-control my-3 roboto__400"
+            placeholder="E-mail"
+          />
+          <input
+            type="password"
+            name="password"
+            class="form-control my-3 roboto__400"
+            placeholder="Password"
+          />
+
+
+          <div class="d-grid gap-2">
+            <button type="button" class="btn btn-primary signup-btn p-2">
+              Sign In
+            </button>
+          </div>
+
+          <p class="my-4 text-center roboto__400">
+            Don’t have an account?
+            <a href="#" class="roboto__400 text-decoration-none">Sign up here</a>
           </p>
         </form>
       </div>
