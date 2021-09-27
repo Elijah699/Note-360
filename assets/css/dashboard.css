@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background: #e5e5e5;
+}
+
+.db-note-name {
+    font-family: "Gruppo", cursive;
+    font-size: 36px;
+}
+
+#search {
+    margin:  auto;
+    width: 50%;
+    position: relative;
+    font-size: 18px;
+}
+
+#search label {
+    position: absolute;
+    top: 17px;
+    left: 15px;
+}
+
+#search #search__input {
+ padding-left: 40px;
+ padding-right: 40px;
+ font-size: 14px;
+}
+
+
+.db-menu,
+.db-view {
+    background-color: #F7FBFD;
+}
+
+.db-menu li {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 24px;
+    color: #c4c4c4;
+}
+
+.db-menu .con {
+    font-family: Roboto;
+    font-size: 12px;
+    background-color: #c4c4c4;
+    color: #fff;
+    border-radius: 50%;
+}
