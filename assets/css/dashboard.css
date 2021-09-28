@@ -1,53 +1,84 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .body {
-    background: #e5e5e5;
+  background: #e5e5e5;
 }
 
 .db-note-name {
-    font-family: "Gruppo", cursive;
-    font-size: 36px;
+  font-family: "Gruppo", cursive;
+  font-size: 36px;
 }
 
 #search {
-    margin:  auto;
-    width: 50%;
-    position: relative;
-    font-size: 18px;
+  margin: auto;
+  width: 50%;
+  position: relative;
+  font-size: 18px;
 }
 
 #search label {
-    position: absolute;
-    top: 17px;
-    left: 15px;
+  position: absolute;
+  top: 17px;
+  left: 15px;
 }
 
 #search #search__input {
- padding-left: 40px;
- padding-right: 40px;
- font-size: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 14px;
 }
-
 
 .db-menu,
 .db-view {
-    background-color: #F7FBFD;
+  background-color: #f7fbfd;
 }
 
 .db-menu li {
-    font-family: Roboto;
-    font-size: 15px;
-    line-height: 24px;
-    color: #c4c4c4;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 24px;
+  color: #c4c4c4;
 }
 
 .db-menu .con {
-    font-family: Roboto;
-    font-size: 12px;
-    background-color: #c4c4c4;
-    color: #fff;
-    border-radius: 50%;
+  font-family: Roboto;
+  font-size: 12px;
+  background-color: #c4c4c4;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.dlt-body {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  width: 350px;
+}
+
+.edit-body {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 400px;
+}
+
+.dlt-body p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.cancel {
+    border: 1px solid #C4C4C4;
+    color: #C4C4C4;
+}
+
+.del {
+    color: #F13843;
+    background: rgba(241, 56, 67, 0.2);
 }
