@@ -22,32 +22,34 @@
     />
 
     <!-- CSS STYLESHEET -->
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <!-- <link rel="stylesheet" href="/assets/css/styles.css" /> -->
     <link rel="stylesheet" href="/assets/css/dashboard.css" />
   </head>
 
   <body>
-    <div class="searchBar">
-      <nav class="navbar bg-white p-0">
-        <div>
-          <a class="navbar-brand db-note-name text-black ps-2" href="index.html"
+    <header class="p-0">
+      <nav class="navbar d-flex justify-content-start align-items-center bg-white ps-4 pt-0 pb-0">
+        <!-- <div> -->
+          <a class="navbar-brand db-note-name text-black me-5 p-0" href="index.html"
             >Note 360°</a
           >
+        <!-- </div> -->
+
+        <div id="search-bar" class="d-flex ms-5">
+          <input
+            id="search-bar_input"
+            class="flex-grow-1"
+            type="search"
+            placeholder="Search notes"
+            aria-label="Search"
+          />
+          <button id="search-bar_submit"
+            ><i class="fas fa-search" aria-label="search submit" aria-hidden="true"></i
+          ></button>
         </div>
 
-        <div id="search" class="rounded pt-2">
-          <label for="search__input"
-            ><i class="fa fa-search" aria-hidden="true"></i
-          ></label>
-          <input
-            id="search__input"
-            class="form-control form-control-lg"
-            type="text"
-            placeholder="Search notes"
-          />
-        </div>
       </nav>
-    </div>
+    </header>
 
     <div class="db-menu p-2">
       <ul>
