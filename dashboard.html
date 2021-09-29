@@ -80,9 +80,67 @@
 
     <div class="container-fluid" id="db-body">
       <div class="row">
-        <!-- <button data-bs-toggle="modal" data-bs-target="#editNote-modal">
+        <button data-bs-toggle="modal" data-bs-target="#editNote-modal">
+          Click Me!
+        </button>
+
+        <!-- <button data-bs-toggle="modal" data-bs-target="#createNote-modal">
           Click Me!
         </button> -->
+
+        <!-- CREATE NEW NOTE MODAL  -->
+        <div class="modal fade" id="createNote-modal">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content createNote-content rounded-3">
+              <div class="modal-header">
+                <h5 class="modal-title" id="createNote-modal">Write a Note</h5>
+                <button 
+                  type="button" 
+                  class="btn-close" 
+                  data-bs-dismiss="modal" 
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form class="createNote">
+                  <div class="mb-3">
+                    <label for="noteTitle" class="form-label">Title</label>
+                    <input 
+                      type="text" 
+                      class="form-control"
+                      name="noteTitle" 
+                      id="noteTitle" 
+                      placeholder="note title"
+                    >
+                  </div>
+                  <div class="mb-3">  
+                    <label for="noteTag" class="form-label">Tag</label>
+                    <input 
+                      type="text" 
+                      class="form-control"
+                      name="noteTag" 
+                      id="noteTag" 
+                      placeholder="note tag"
+                    >
+                  </div>
+                  <div class="mb-4">  
+                    <label for="noteText" class="form-label">Note</label>
+                    <textarea 
+                      type="text" 
+                      class="form-control"
+                      name="noteText" 
+                      id="noteText" 
+                      placeholder="note body"
+                      rows="10"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary createNote-btn rounded-pill">Create</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
         <!-- DELETE MODAL -->
         <div class="modal fade my-auto" id="dlt-modal">
@@ -118,7 +176,7 @@
 
         <!-- EDIT NOTE MODAL -->
         <div class="modal fade my-auto" id="editNote-modal">
-          <div class="modal-dialog">
+          <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content edit-body">
               <div class="modal-header fs-6">
                 <strong>Edit Note</strong>
@@ -131,7 +189,7 @@
               </div>
               <div class="modal-body">
                 <form action="">
-                  <div class="form-group">
+                  <div class="form-group mb-3">
                     <label for="Title" class=""><strong>Title</strong></label>
                     <input
                       type="text"
@@ -139,11 +197,11 @@
                       placeholder="Learn a new programming Language"
                     />
                   </div>
-                  <div class="form-group">
+                  <div class="form-group mb-3">
                     <label for="Tag" class=""><strong>Tag</strong></label>
                     <input type="text" class="form-control" />
                   </div>
-                  <div class="form-group">
+                  <div class="form-group mb-4">
                     <label for="Note" class=""><strong>Note</strong></label>
                     <textarea
                       name=""

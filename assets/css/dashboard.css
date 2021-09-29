@@ -94,17 +94,52 @@ body {
   border-radius: 50%;
 }
 
+/* create note styles */
+
+#createNote-modal {
+    font-family: 'Roboto';
+}
+
+.createNote .form-label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.createNote .form-control {
+    background: rgba(196, 196, 196, 0.05);
+    border: 1px solid rgba(222, 223, 236, 1);
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.createNote #noteTitle,
+.createNote #noteTag {
+    height: 46px;
+}
+
+.createNote-btn {
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 18.75px;
+    padding: 14px 47px;
+}
+
+
+/* ********************** */
+
 .dlt-body {
   margin-top: 50%;
   margin-bottom: 50%;
   width: 350px;
 }
 
-.edit-body {
+/* .edit-body {
     margin-top: 15%;
     margin-bottom: 15%;
     width: 400px;
-}
+} */
 
 .dlt-body p {
   font-family: Roboto;
